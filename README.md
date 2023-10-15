@@ -4,7 +4,7 @@ Website demo cửa hàng online, sử dụng react.js framework.
 
 ## DEMO GIAO DIỆN WEB
 
-Click [TẠI ĐÂY](https://drive.google.com/drive/folders/1RESf3uvmjc2Ry7R9fobsi5l4z6Rw5al_?usp=sharing) để xem video demo.
+Click [TẠI ĐÂY](https://drive.google.com/drive/folders/1RESf3uvmjc2Ry7R9fobsi5l4z6Rw5al_?usp=sharing) để xem video demo, hoặc [ĐI ĐẾN WEBSITE](https://demowebsitebanhang.netlify.app/)
 
 ## CÀI ĐẶT ĐỂ XEM TRANG WEB
 
