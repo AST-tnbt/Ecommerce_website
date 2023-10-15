@@ -1,8 +1,15 @@
-# React + Vite
+# Website Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website demo cửa hàng online, sử dụng react.js framework.
 
-Currently, two official plugins are available:
+## DEMO GIAO DIỆN WEB
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Click [TẠI ĐÂY](https://drive.google.com/drive/folders/1RESf3uvmjc2Ry7R9fobsi5l4z6Rw5al_?usp=sharing) để xem video demo.
+
+## CÀI ĐẶT ĐỂ XEM TRANG WEB
+
+Download repository, sử dụng các câu lệnh để cài đặt và chạy trang web trên localhost.  
+Một số câu lệnh:  
+`npm install` : Cài đặt, cấu hình các package cần thiết cho project.  
+`npm run dev` : Chạy trang web trên localhost.  
+Lưu ý: Chắc chắn rằng máy tính đã được cài đặt NodeJs và change directory vào đúng thư mục.
