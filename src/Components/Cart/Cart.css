@@ -1,0 +1,107 @@
+.cart-box {
+    z-index: 100;
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    background-color: white;
+    width: 30%; 
+    display: none;
+    animation: flyOut .3s ease-in-out forwards;
+}
+.cart-box.show-cart {
+    animation: flyIn .6s ease-in-out;
+    display: block;
+}
+.overlay {
+    z-index: 99;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .8);
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+    display: none;
+    animation: fadeIn .3s ease-in-out;
+}
+.close-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer; 
+}
+.title-cart {
+    padding: 80px 0 20px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 26px;
+    color: #333;
+}
+.list-product-cart {
+    padding: 0 10px;
+    max-height: 65%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.not-found-cart {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+
+}
+.list-product-cart-item {
+    margin: 20px auto 0 auto;
+    display: flex;
+}
+.product-thumbnail {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 40%;
+}
+.product-infor {
+    margin-left: 20px;
+}
+.product-info__title {
+    font-size: 20px;
+    color: #333;
+}
+.product-info__price {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.del-btn {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 6px 8px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+.del-btn:hover {
+    transition: all .2s;
+    opacity: .8;
+}
+.total-price {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.total-price-box {
+    margin-top: 26px;
+}
+@media (min-width: 681px ) and (max-width: 1200px) {
+    .cart-box {
+        width: 60%;
+    }
+}
+@media (min-width: 350px ) and (max-width: 680px) {
+    .cart-box {
+        width: 80%;
+    }
+}

@@ -1,0 +1,27 @@
+.banner {
+    position: relative;
+    top: 70px;
+}
+.banner1 {
+    background-image: url(../../assets/img/Banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.banner2 {
+    background-image: url(../../assets/img/Banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+@media (min-width: 992px ) {
+    .banner1,.banner2 {
+        height: 720px;
+    }
+}
+@media (min-width: 350px) and (max-width: 550px) {
+    .banner1,.banner2 {
+        height: 280px;
+    }
+}

@@ -1,0 +1,38 @@
+.navigation {
+    z-index: 99;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #000;
+    position: fixed;
+    width: 100vw;
+    align-items: center;
+}
+.logo {
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+
+.right-nav {
+    display: flex;
+}
+.cart-icon, .like-icon {
+    cursor: pointer;
+    margin-left: 20px;
+}
+.cart-icon:hover, .user-icon:hover, .like-icon :hover {
+    transition: opacity .3s;
+    opacity: .8;
+}
+.user-icon {
+    cursor: pointer;
+}
+@media (max-width: 550px) and (min-width: 350px ) {
+    .navigation {
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+}

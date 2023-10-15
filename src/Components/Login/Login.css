@@ -1,0 +1,165 @@
+.overlay {
+    z-index: 99;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .8);
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+    display: none;
+    animation: fadeIn .3s ease-in-out;
+}
+@keyframes flyIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes flyOut {
+    from {
+        transform: translateX(0);
+        display: block;
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        display: none;
+        opacity: 0;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        display: block;
+        opacity: 1;
+    }
+}
+.login-box {
+    z-index: 100;
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    background-color: white;
+    width: 30%; 
+    display: none;
+    animation: flyOut .3s ease-in-out forwards;
+}
+.login-box.show-login {
+    animation: flyIn .6s ease-in-out;
+    display: block;
+}
+.close-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+.login-title {
+    padding: 80px 0 20px 0;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 20px;
+    color: #333;
+}
+.btn {
+    width: 90%;
+    margin: 6px auto;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: 400;
+    border: solid 1px #000;
+    background-color: transparent;
+}
+.btn:hover {
+    opacity: .8;
+    transition: opacity .3s;
+}
+.input-bar {
+    width: 90%;
+    font-size: 18px;
+    padding: 6px;
+    margin: 6px auto;
+}
+.login-help {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: space-between;
+    
+}
+.save-login {
+    cursor: pointer;
+}
+#checkbox-login {
+    content: "";
+    width: 16px;
+    height: 16px;
+    transform: translateY(10%);
+    border-radius: 2px;
+    cursor: pointer;
+    accent-color: #000;
+}
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+.text-checkbox {
+    font-size: 16px;
+    margin-left: 4px;
+    cursor: pointer;
+    color: #333;
+}
+.btn.btn-primary {
+    background-color: #000;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+}
+.btn.btn-blue {
+    background-color: #3c5898;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+}
+.btn.btn-red {
+    background-color: #DB4437;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+}
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    padding-bottom: 20px;
+    background-color: #eeeeee;
+    
+}
+.sign-up-title {
+    padding: 40px 0 20px 0;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 20px;
+    color: #333;
+}
+@media (min-width: 681px ) and (max-width: 1200px) {
+    .login-box {
+        width: 60%;
+    }
+}
+@media (min-width: 350px ) and (max-width: 680px) {
+    .login-box {
+        width: 80%;
+    }
+}
