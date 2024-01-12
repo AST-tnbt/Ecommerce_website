@@ -1,6 +1,6 @@
-# Website Demo
+# ĐỒ ÁN GIỮA KÌ MÔN KỸ NĂNG NGHỀ NGHIỆP
 
-Website demo cửa hàng online, sử dụng react.js framework.
+Giao diện Website demo cửa hàng online, sử dụng react.js framework.
 
 ## DEMO GIAO DIỆN WEB
 
