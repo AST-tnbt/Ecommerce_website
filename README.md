@@ -1,15 +1,15 @@
-# Website Demo
+# Ecommerce Website
 
-Website demo cửa hàng online, sử dụng react.js framework.
+Online store interface, built using the ReactJs framework.
 
-## DEMO GIAO DIỆN WEB
+## WEB INTERFACE DEMO
 
-Click [TẠI ĐÂY](https://drive.google.com/drive/folders/1RESf3uvmjc2Ry7R9fobsi5l4z6Rw5al_?usp=sharing) để xem video demo, hoặc [ĐI ĐẾN WEBSITE](https://demowebsitebanhang.netlify.app/)
+Click [HERE](https://drive.google.com/drive/folders/1RESf3uvmjc2Ry7R9fobsi5l4z6Rw5al_?usp=sharing) to watch the demo video, or [GO TO THE WEBSITE](https://demowebsitebanhang.netlify.app/)
 
-## CÀI ĐẶT ĐỂ XEM TRANG WEB
+## INSTALLATION TO VIEW THE WEBSITE
 
-Download repository, sử dụng các câu lệnh để cài đặt và chạy trang web trên localhost.  
-Một số câu lệnh:  
-`npm install` : Cài đặt, cấu hình các package cần thiết cho project.  
-`npm run dev` : Chạy trang web trên localhost.  
-Lưu ý: Chắc chắn rằng máy tính đã được cài đặt NodeJs và change directory vào đúng thư mục.
+Download the repository, use the following commands to install and run the website on localhost.
+Some commands:
+`npm install`: Install and configure necessary packages for the project.
+`npm run dev`: Run the website on localhost.
+Note: Make sure that NodeJs is installed on your computer and change the directory to the root folder of project.
