@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Ecommerce Website
 
 Online store interface, built using the ReactJs framework.
